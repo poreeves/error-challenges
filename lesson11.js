@@ -15,7 +15,8 @@ var nameFilter = function(filteredName) {
             results.push(name)
         }
     }
+    return results
 }
 
-var filteredNames = nameFilter("Betty")
+var filteredNames = nameFilter("Betty");
 console.log(filteredNames)

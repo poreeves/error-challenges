@@ -16,11 +16,11 @@ var nameFilter = function(filteredName) {
     for (var i = 0; i < people.length; i++) {
         let currentName = people[i].name
         if (currentName !== filteredName) {
-            results.push(filteredName)
+            results.push(currentName)
         }
     }
     return results
 }
 
-var filteredNames = nameFilter("Roger")
+var filteredNames = nameFilter("Roger");
 console.log(filteredNames)
